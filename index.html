@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Layali Days LLC — Building construction, cold room installation & maintenance, and professional fitout works in Riyadh, Saudi Arabia."
+    />
+    <title>Layali Days LLC | Construction & Cold Room Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+  </head>
+  <body>
+    <div class="texture-overlay" aria-hidden="true"></div>
+
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#hero" class="nav__brand">
+          <img src="assets/logo.png" alt="Layali Days" class="nav__logo" />
+        </a>
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#cold-room" data-i18n="nav.coldRoom">Cold Rooms</a></li>
+          <li><a href="#fitout" data-i18n="nav.fitout">Fitout</a></li>
+          <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <div class="nav__actions">
+          <button type="button" class="lang-toggle" id="langToggle" aria-label="Switch language">العربية</button>
+          <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="container hero__content">
+          <div class="hero__text reveal">
+            <p class="hero__eyebrow" data-i18n="hero.eyebrow">Layali Days LLC</p>
+            <h1 class="hero__title">
+              <span data-i18n="hero.title1">Building Excellence</span><br />
+              <span class="text-gradient" data-i18n="hero.title2">Across Saudi Arabia</span>
+            </h1>
+            <p class="hero__subtitle" data-i18n="hero.subtitle">
+              Layali Days LLC delivers end-to-end construction, cold room solutions,
+              and professional fitout works — engineered for quality, reliability, and lasting performance.
+            </p>
+            <div class="hero__actions">
+              <a href="#contact" class="btn btn--primary" data-i18n="hero.ctaQuote">Get a Quote</a>
+              <a href="#services" class="btn btn--outline" data-i18n="hero.ctaServices">Our Services</a>
+            </div>
+          </div>
+          <div class="hero__visual reveal reveal--delay">
+            <div class="hero__logo-frame">
+              <img src="assets/logo.png" alt="Layali Days Logo" class="hero__logo" />
+            </div>
+            <div class="hero__stats">
+              <div class="stat-card">
+                <span class="stat-card__value">+10° to -20°</span>
+                <span class="stat-card__label" data-i18n="hero.statTemp">Cold Room Range</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-card__value">9+</span>
+                <span class="stat-card__label" data-i18n="hero.statProjects">Major Projects</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#services" class="hero__scroll" aria-label="Scroll to services">
+          <span class="hero__scroll-line"></span>
+        </a>
+      </section>
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section__header reveal">
+            <span class="section__eyebrow" data-i18n="services.eyebrow">What We Do</span>
+            <h2 class="section__title" data-i18n="services.title">Our Core Services</h2>
+            <p class="section__desc" data-i18n="services.desc">
+              From ground-up construction to precision cold storage and interior fitouts —
+              we bring the same commitment to every project.
+            </p>
+          </div>
+
+          <div class="services__grid">
+            <article class="service-card reveal">
+              <div class="service-card__image">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80" alt="" loading="lazy" />
+              </div>
+              <div class="service-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6" />
+                </svg>
+              </div>
+              <h3 class="service-card__title" data-i18n="services.construction.title">Building Construction</h3>
+              <p class="service-card__code">410010</p>
+              <p class="service-card__text" data-i18n="services.construction.text">
+                Construction of all types of residential buildings — from planning and
+                structural works to complete turnkey delivery with uncompromising quality standards.
+              </p>
+              <ul class="service-card__list">
+                <li data-i18n="services.construction.li1">Residential & commercial structures</li>
+                <li data-i18n="services.construction.li2">Full project management</li>
+                <li data-i18n="services.construction.li3">Quality-assured materials & workmanship</li>
+              </ul>
+            </article>
+
+            <article class="service-card service-card--featured reveal reveal--delay">
+              <div class="service-card__badge" data-i18n="services.coldRoom.badge">Specialty</div>
+              <div class="service-card__image">
+                <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80" alt="" loading="lazy" />
+              </div>
+              <div class="service-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+                  <circle cx="12" cy="12" r="4" />
+                </svg>
+              </div>
+              <h3 class="service-card__title" data-i18n="services.coldRoom.title">Cold Room Installation & Maintenance</h3>
+              <p class="service-card__code">331295</p>
+              <p class="service-card__text" data-i18n="services.coldRoom.text">
+                Repair and maintenance of refrigeration and air purification devices such as
+                refrigerators, freezers, and air conditioners — plus full cold room design,
+                supply, installation, and commissioning.
+              </p>
+              <ul class="service-card__list">
+                <li data-i18n="services.coldRoom.li1">Chiller & freezer rooms</li>
+                <li data-i18n="services.coldRoom.li2">Refrigeration unit supply & installation</li>
+                <li data-i18n="services.coldRoom.li3">Testing, commissioning & AMC</li>
+              </ul>
+              <a href="#cold-room" class="service-card__link" data-i18n="services.coldRoom.link">Explore cold room solutions →</a>
+            </article>
+
+            <article class="service-card reveal reveal--delay-2">
+              <div class="service-card__image">
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="" loading="lazy" />
+              </div>
+              <div class="service-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <path d="M3 9h18M9 21V9" />
+                </svg>
+              </div>
+              <h3 class="service-card__title" data-i18n="services.fitout.title">Fitout Works</h3>
+              <p class="service-card__code">433092</p>
+              <p class="service-card__text" data-i18n="services.fitout.text">
+                Interior installation of shops, mobile homes, boats, and commercial spaces —
+                transforming raw structures into polished, functional environments.
+              </p>
+              <ul class="service-card__list">
+                <li data-i18n="services.fitout.li1">Retail & commercial interiors</li>
+                <li data-i18n="services.fitout.li2">Mobile homes & specialty spaces</li>
+                <li data-i18n="services.fitout.li3">End-to-end fitout delivery</li>
+              </ul>
+              <a href="#fitout" class="service-card__link" data-i18n="services.fitout.link">Explore fitout solutions →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cold-room section section--alt" id="cold-room">
+        <div class="container">
+          <div class="cold-room__layout">
+            <div class="cold-room__visual reveal">
+              <img
+                src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80"
+                alt=""
+                class="cold-room__photo"
+                loading="lazy"
+              />
+            </div>
+            <div class="cold-room__intro reveal reveal--delay">
+              <span class="section__eyebrow" data-i18n="coldRoom.eyebrow">Cold Room Expertise</span>
+              <h2 class="section__title" data-i18n="coldRoom.title">Cold Room Installation & Maintenance</h2>
+              <p class="section__desc" data-i18n="coldRoom.desc">
+                We specialize in all types of cold room solutions with temperature ranges
+                from +10°C to -20°C, serving diverse industries across the Kingdom.
+              </p>
+            </div>
+
+            <div class="cold-room__details">
+              <div class="detail-block reveal">
+                <h3 class="detail-block__title" data-i18n="coldRoom.capabilities">Our Capabilities</h3>
+                <ul class="detail-block__list">
+                  <li data-i18n="coldRoom.cap1">Chiller & freezer rooms</li>
+                  <li data-i18n="coldRoom.cap2">Refrigeration unit supply & installation</li>
+                  <li data-i18n="coldRoom.cap3">Testing & commissioning cold rooms</li>
+                  <li data-i18n="coldRoom.cap4">Annual maintenance contracts</li>
+                  <li data-i18n="coldRoom.cap5">Repair & emergency breakdown services</li>
+                  <li data-i18n="coldRoom.cap6">Power pack systems</li>
+                  <li data-i18n="coldRoom.cap7">ICE maker installation</li>
+                </ul>
+              </div>
+
+              <div class="detail-block reveal reveal--delay">
+                <h3 class="detail-block__title" data-i18n="coldRoom.applications">Applications</h3>
+                <div class="tags">
+                  <span class="tag" data-i18n="coldRoom.tag1">Food & Beverage Storage</span>
+                  <span class="tag" data-i18n="coldRoom.tag2">Restaurants & Hotels</span>
+                  <span class="tag" data-i18n="coldRoom.tag3">Supermarkets</span>
+                  <span class="tag" data-i18n="coldRoom.tag4">Meat & Fish Storage</span>
+                  <span class="tag" data-i18n="coldRoom.tag5">Pharmaceutical Storage</span>
+                  <span class="tag" data-i18n="coldRoom.tag6">Vegetable & Fruit Cold Storage</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="fitout section" id="fitout">
+        <div class="container">
+          <div class="fitout__header reveal">
+            <div>
+              <span class="section__eyebrow" data-i18n="fitout.eyebrow">Interior Excellence</span>
+              <h2 class="section__title" data-i18n="fitout.title">Professional Fitout Works</h2>
+              <p class="section__desc" data-i18n="fitout.desc">
+                We transform empty shells into fully functional, brand-ready spaces — from retail shops and restaurants to offices, mobile units, and specialty installations.
+              </p>
+            </div>
+            <div class="fitout__hero-image reveal reveal--delay">
+              <img
+                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="fitout__grid">
+            <div class="detail-block reveal">
+              <h3 class="detail-block__title" data-i18n="fitout.spaces">Spaces We Fit Out</h3>
+              <ul class="detail-block__list">
+                <li data-i18n="fitout.space1">Retail shops & showrooms</li>
+                <li data-i18n="fitout.space2">Restaurants & cafés</li>
+                <li data-i18n="fitout.space3">Offices & commercial units</li>
+                <li data-i18n="fitout.space4">Mobile homes & modular units</li>
+                <li data-i18n="fitout.space5">Boats & marine interiors</li>
+                <li data-i18n="fitout.space6">Warehouses & storage areas</li>
+              </ul>
+            </div>
+
+            <div class="detail-block reveal reveal--delay">
+              <h3 class="detail-block__title" data-i18n="fitout.scope">Scope of Work</h3>
+              <ul class="detail-block__list">
+                <li data-i18n="fitout.scope1">Space planning & layout design</li>
+                <li data-i18n="fitout.scope2">Partitioning, ceilings & flooring</li>
+                <li data-i18n="fitout.scope3">Electrical, lighting & HVAC coordination</li>
+                <li data-i18n="fitout.scope4">Custom joinery, counters & shelving</li>
+                <li data-i18n="fitout.scope5">Painting, cladding & finishes</li>
+                <li data-i18n="fitout.scope6">Signage, branding & handover</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="fitout__process reveal">
+            <h3 class="fitout__process-title" data-i18n="fitout.process">Our Process</h3>
+            <div class="process-steps">
+              <article class="process-step">
+                <span class="process-step__num">01</span>
+                <h4 data-i18n="fitout.step1Title">Consult & Plan</h4>
+                <p data-i18n="fitout.step1">Site survey, requirements review, and detailed fitout proposal.</p>
+              </article>
+              <article class="process-step">
+                <span class="process-step__num">02</span>
+                <h4 data-i18n="fitout.step2Title">Design & Build</h4>
+                <p data-i18n="fitout.step2">Coordinated trades, quality materials, and on-schedule execution.</p>
+              </article>
+              <article class="process-step">
+                <span class="process-step__num">03</span>
+                <h4 data-i18n="fitout.step3Title">Handover</h4>
+                <p data-i18n="fitout.step3">Final inspection, snag-list clearance, and ready-to-operate delivery.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section section--alt" id="projects">
+        <div class="container">
+          <div class="section__header reveal">
+            <span class="section__eyebrow" data-i18n="projects.eyebrow">Portfolio</span>
+            <h2 class="section__title" data-i18n="projects.title">Completed & Ongoing Projects</h2>
+            <p class="section__desc" data-i18n="projects.desc">
+              Trusted by leading brands across Saudi Arabia for cold room and refrigeration excellence.
+            </p>
+          </div>
+
+          <div class="projects__timeline">
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=500&q=80" alt="" class="project-card__img" loading="lazy" />
+              <span class="project-card__year">2023</span>
+              <h3 class="project-card__title">Mama Noura — Al Khobar</h3>
+              <p class="project-card__desc" data-i18n="projects.p1">Cold rooms (chiller & freezer) installation, testing & commissioning.</p>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=500&q=80" alt="" class="project-card__img" loading="lazy" />
+              <span class="project-card__year">2023</span>
+              <h3 class="project-card__title">Mama Noura — Dammam</h3>
+              <p class="project-card__desc" data-i18n="projects.p1">Cold rooms (chiller & freezer) installation, testing & commissioning.</p>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=500&q=80" alt="" class="project-card__img" loading="lazy" />
+              <span class="project-card__year">2023</span>
+              <h3 class="project-card__title">Mama Noura — Suwaidi</h3>
+              <p class="project-card__desc" data-i18n="projects.p1">Cold rooms (chiller & freezer) installation, testing & commissioning.</p>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&q=80" alt="" class="project-card__img" loading="lazy" />
+              <span class="project-card__year">2023</span>
+              <h3 class="project-card__title">Adar Restaurant — Riyadh</h3>
+              <p class="project-card__desc" data-i18n="projects.p2">Cold room installation & commissioning project.</p>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80" alt="" class="project-card__img" loading="lazy" />
+              <span class="project-card__year">2024</span>
+              <h3 class="project-card__title">Khalid Ibrahim Co.</h3>
+              <p class="project-card__desc" data-i18n="projects.p3">ICE maker installation & cold room commissioning.</p>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&q=80" alt="" class="project-card__img" loading="lazy" />
+              <span class="project-card__year">2024</span>
+              <h3 class="project-card__title">Fish Auction Co.</h3>
+              <p class="project-card__desc" data-i18n="projects.p1">Cold rooms (chiller & freezer) installation, testing & commissioning.</p>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=500&q=80" alt="" class="project-card__img" loading="lazy" />
+              <span class="project-card__year">2025</span>
+              <h3 class="project-card__title">Mama Noura — Narjis</h3>
+              <p class="project-card__desc" data-i18n="projects.p4">Cold rooms installation, testing & commissioning — ongoing.</p>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&q=80" alt="" class="project-card__img" loading="lazy" />
+              <span class="project-card__year">2025</span>
+              <h3 class="project-card__title">Dallah Fisheries — Riyadh</h3>
+              <p class="project-card__desc" data-i18n="projects.p4">Cold rooms installation, testing & commissioning — ongoing.</p>
+            </article>
+            <article class="project-card reveal">
+              <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&q=80" alt="" class="project-card__img" loading="lazy" />
+              <span class="project-card__year">2025</span>
+              <h3 class="project-card__title">Fish Auction Co.</h3>
+              <p class="project-card__desc" data-i18n="projects.p4">Cold rooms installation, testing & commissioning — ongoing.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section">
+        <div class="container">
+          <div class="cta__box reveal">
+            <h2 class="cta__title" data-i18n="cta.title">Ready to Start Your Project?</h2>
+            <p class="cta__text" data-i18n="cta.text">
+              Whether you need a new cold room, a full building, or a complete fitout —
+              Layali Days is ready to deliver.
+            </p>
+            <a href="tel:0504176328" class="btn btn--primary btn--lg" data-i18n="cta.button">Call 050 417 6328</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section section--alt" id="contact">
+        <div class="container">
+          <div class="contact__grid">
+            <div class="contact__info reveal">
+              <span class="section__eyebrow" data-i18n="contact.eyebrow">Get in Touch</span>
+              <h2 class="section__title" data-i18n="contact.title">Contact Layali Days</h2>
+              <p class="section__desc" data-i18n="contact.desc">
+                Reach out for consultations, quotations, or emergency cold room support.
+              </p>
+
+              <div class="contact__items">
+                <div class="contact__item">
+                  <div class="contact__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 data-i18n="contact.address">Address</h4>
+                    <p data-i18n="contact.addressText">Building No. 7783, Sayda, Al-Sawdi<br />Riyadh 12796, Saudi Arabia</p>
+                  </div>
+                </div>
+                <div class="contact__item">
+                  <div class="contact__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 data-i18n="contact.mobile">Mobile</h4>
+                    <p><a href="tel:0504176328">050 417 6328</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact__form reveal reveal--delay" id="contactForm">
+              <div class="form-group">
+                <label for="name" data-i18n="contact.name">Full Name</label>
+                <input type="text" id="name" name="name" required data-i18n="contact.namePlaceholder" placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="phone" data-i18n="contact.phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required data-i18n="contact.phonePlaceholder" placeholder="05X XXX XXXX" />
+              </div>
+              <div class="form-group">
+                <label for="service" data-i18n="contact.service">Service Required</label>
+                <select id="service" name="service" required>
+                  <option value="" data-i18n="contact.servicePlaceholder">Select a service</option>
+                  <option value="construction" data-i18n="contact.serviceConstruction">Building Construction</option>
+                  <option value="cold-room" data-i18n="contact.serviceColdRoom">Cold Room Installation & Maintenance</option>
+                  <option value="fitout" data-i18n="contact.serviceFitout">Fitout Works</option>
+                  <option value="other" data-i18n="contact.serviceOther">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message" data-i18n="contact.message">Message</label>
+                <textarea id="message" name="message" rows="4" data-i18n="contact.messagePlaceholder" placeholder="Tell us about your project..."></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full" data-i18n="contact.submit">Send Inquiry</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <img src="assets/logo.png" alt="Layali Days" class="footer__logo" />
+          <p class="footer__arabic">شركة ليالي دايز</p>
+        </div>
+        <p class="footer__copy">
+          &copy; <span id="year"></span> <span data-i18n="footer.copy">Layali Days LLC. All rights reserved.</span>
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
